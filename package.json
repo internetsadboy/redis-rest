@@ -1,0 +1,17 @@
+{
+  "name": "redis-go-rest",
+  "version": "0.0.0",
+  "description": "restful interface for redis ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/*.js",
+    "start": "node index.js"
+  },
+  "author": "Jared Halpert <@jaredhalpert>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.8.2",
+    "redis": "^0.12.0",
+    "request": "^2.40.0"
+  }
+}
